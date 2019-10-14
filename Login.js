@@ -33,7 +33,7 @@ export default class Login extends React.Component {
   }
 
   async componentDidMount() {
-    console.log(Base64.encode("asd"));
+    // console.log(Base64.encode("asd"));
     firebase.initializeApp(firebaseConfig);
     await firebase
       .database()
